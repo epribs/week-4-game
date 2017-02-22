@@ -1,0 +1,70 @@
+body {
+	background:grey;
+}
+h1 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h3 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+#container {
+	width: 1080px;
+	margin:0 auto;
+}
+header {
+	background: #fafafa;
+	border: 2px solid black;
+	width: 100%;
+	text-align: center;
+	margin:10px auto;
+	padding: 10px 0;
+}
+#myNumber {
+	float: left;
+	background: #c6e7f5;
+	border: 2px solid black;
+	width: 40%;
+	text-align: center;
+	margin:10 auto;
+	padding: 10px 0;
+	clear: left;
+}
+#myScore {
+	float: right;
+	background: #98ccd5;
+	border: 2px solid black;
+	width: 40%;
+	text-align: center;
+	margin:10 auto;
+	padding: 10px 0;
+	clear: right;
+}
+#crystals {
+	margin:10px auto;
+	text-align: center;
+	width: 100%;
+}
+#crystals img{
+	height: 175px;
+	width: auto;
+	padding: 20px;
+}
+
