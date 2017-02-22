@@ -1,16 +1,15 @@
 
-var wins = 0;
-var loss = 0;
 
-
-$("#wins").text(wins);
-$("#loss").text(loss);
 var targetNumber = Math.floor(Math.random() * (120 - 19)) + 19;
   $("#number-to-guess").text(targetNumber);
   var counter = 0;
   // Now for the hard part. Creating multiple crystals each with their own unique number value.
   // We begin by expanding our array to include four options.
   var numberOptions = [10, 5, 3, 7];
+  var wins = 0;
+  var loss = 0;
+  $("#wins").text(wins);
+  $("#loss").text(loss);
   // Next we create a for loop to create crystals for every numberOption.
   for (var i = 0; i < numberOptions.length; i++) {
     // For each iteration, we will create an imageCrystal
@@ -41,6 +40,7 @@ var targetNumber = Math.floor(Math.random() * (120 - 19)) + 19;
     // All of the same game win-lose logic applies. So the rest remains unchanged.
     $("#score").text(counter);
     if (counter === targetNumber) {
+      wins++;
       alert("You win!");
     }
     else if (counter >= targetNumber) {

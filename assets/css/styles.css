@@ -45,7 +45,6 @@ header {
 	text-align: center;
 	margin:10 auto;
 	padding: 10px 0;
-	clear: left;
 }
 #myScore {
 	float: right;
@@ -55,10 +54,10 @@ header {
 	text-align: center;
 	margin:10 auto;
 	padding: 10px 0;
-	clear: right;
 }
 #crystals {
-	margin:10px auto;
+	clear:both;
+	margin:20px auto;
 	text-align: center;
 	width: 100%;
 }
