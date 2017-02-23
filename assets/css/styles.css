@@ -66,4 +66,30 @@ header {
 	width: auto;
 	padding: 20px;
 }
+#gameButtons {
+	margin:20px auto;
+	text-align: center;
+	width: 100%;
+}
+#gameButtons input[type=button] {
+	border: 1px solid black;
+	border-radius: 4px;
+	background-color: white;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	width: 200px;
+	height: 50px;
+	text-align: center;
 
+}
+#gameButtons input[type=button]:hover {
+	background-color: #E2F3FA;
+
+}
+#gameButtons input[type=button]:active {
+	background-color: #b4c2c8;
+	color: white;
+}
