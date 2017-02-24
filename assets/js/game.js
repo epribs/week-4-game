@@ -31,7 +31,7 @@ function game() {
   var targetNumber = Math.floor(Math.random() * (120 - 19)) + 19;
   $("#number-to-guess").text(targetNumber);
   console.log("counter preclick:" + counter);
-  $(".crystal-image").unbind("click").bind("click", function() {
+  $(".crystal-image").off("click").on("click", function() {
     var crystalValue = ($(this).attr("data-crystalvalue"));
     crystalValue = parseInt(crystalValue);
     counter += crystalValue;
